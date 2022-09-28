@@ -35,3 +35,19 @@ body {
     grid-area: footer;
 }
 
+.icons {
+    font-size: small;
+}
+
+.information-text {
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.creator-color {
+    color: #f3768b;
+}
+
+.link {
+    color: #ffc3cd;
+}
