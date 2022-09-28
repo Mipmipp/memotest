@@ -20,6 +20,12 @@ body {
     background-color: #313131;
 }
 
+#header h1 {
+    text-align: center;
+    margin-top: 0.4rem;
+    color: #f3768b;
+
+}
 #main {
     grid-area: main;
 }
