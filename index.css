@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: auto;
+}
+
+#page-layout {
+    display: grid;
+    grid-template: 
+        "header" 65px
+        "main"   auto
+        "footer" 80px;
+}
+
+#header {
+    grid-area: header;
+    background-color: #313131;
+}
+
+#main {
+    grid-area: main;
+}
+
+#footer {
+    background-color: #313131;
+    grid-area: footer;
+}
+
