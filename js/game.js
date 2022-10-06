@@ -1,3 +1,5 @@
+let firstCardChoosed = null;
+let secondCardChoosed = null;
 
 function assignCards() {
     let suffledCards = suffleCards(cards);
