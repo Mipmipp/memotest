@@ -1,3 +1,8 @@
+function suffleCards(cards) {
+    const shuffledCards = cards.sort((a, b) => 0.5 - Math.random());
+    return shuffledCards;
+}
+
 function handleGame() {
     for(let i = 1; i < (cards.length + 1); i++) {
         let $cards = document.querySelector(`#${cards[i - 1]}`);
