@@ -1,3 +1,25 @@
+function compareCards() {
+    let firstIndex = firstCardChoosed.indexOf('-');
+    let secondIndex = secondCardChoosed.indexOf('-');
+    let firstCardToCompare = firstCardChoosed.substring(0, firstIndex);
+    let secondCardToCompare = secondCardChoosed.substring(0, secondIndex);
+
+    if(`${firstCardToCompare}` !== `${secondCardToCompare}`) {
+        blockInputUser();
+        setTimeout(function() {
+            backCard();
+        }, 1000)
+
+        setTimeout(function() {
+            handleGame();
+        }, 1100)
+    } else {
+        correctEven.push(firstCardChoosed);
+        correctEven.push(secondCardChoosed);
+        even++;
+        handleGame();
+    }
+}
 
 function backCard() {
     document.querySelector(firstCardChoosed).className = content;
