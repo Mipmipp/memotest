@@ -1,3 +1,19 @@
+function handleClicks(e) {
+    cardChoosed = e.target.id;
+
+    if(firstCardChoosed == null) {
+        firstCardChoosed = `#${cardChoosed}`;
+        document.querySelector(firstCardChoosed).className = `${cardChoosed}`;
+    } else {
+        secondCardChoosed = `#${cardChoosed}`;
+        document.querySelector(secondCardChoosed).className = `${cardChoosed}`;
+    }
+
+    if(firstCardChoosed !== null && secondCardChoosed !== null) {
+        compareCards();
+    }
+}
+
 function compareCards() {
     let firstIndex = firstCardChoosed.indexOf('-');
     let secondIndex = secondCardChoosed.indexOf('-');
