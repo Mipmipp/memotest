@@ -10,9 +10,9 @@ body {
 #page-layout {
     display: grid;
     grid-template: 
-        "header" 65px
+        "header" 4rem
         "main"   auto
-        "footer" 80px;
+        "footer" 5rem;
 }
 
 #header {
@@ -35,16 +35,17 @@ body {
 #introduction-text {
     margin-top: 2rem;
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 22px;
+    font-size: 1.3rem;
     text-align: center;
     color: #313131;
 }
 
 #all-topics {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 25rem;
 }
 
 #footer {
@@ -72,800 +73,800 @@ body {
 .content-ghibli {
     background-image: url('pictures/cards/content-ghibli.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .totoro-1 {
     background-image: url('pictures/cards/totoro-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .totoro-2 {
     background-image: url('pictures/cards/totoro-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .princessmomonoke-1 {
     background-image: url('pictures/cards/princess-momonoke-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .princessmomonoke-2 {
     background-image: url('pictures/cards/princess-momonoke-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .howlsmovingcastle-1 {
     background-image: url('pictures/cards/howls-moving-castle-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .howlsmovingcastle-2 {
     background-image: url('pictures/cards/howls-moving-castle-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .kikisdeliveryservice-1 {
     background-image: url('pictures/cards/kikis-delivery-service-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .kikisdeliveryservice-2 {
     background-image: url('pictures/cards/kikis-delivery-service-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .spiritedaway-1 {
     background-image: url('pictures/cards/spirited-away-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .spiritedaway-2 {
     background-image: url('pictures/cards/spirited-away-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .nausicaa-1 {
     background-image: url('pictures/cards/nausicaa-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .nausicaa-2 {
     background-image: url('pictures/cards/nausicaa-card.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .totorohard-1 {
     background-image: url('pictures/cards/totoro-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .totorohard-2 {
     background-image: url('pictures/cards/totoro-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .princessmomonokehard-1 {
     background-image: url('pictures/cards/princess-momonoke-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .princessmomonokehard-2 {
     background-image: url('pictures/cards/princess-momonoke-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .howlsmovingcastlehard-1 {
     background-image: url('pictures/cards/howls-moving-castle-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .howlsmovingcastlehard-2 {
     background-image: url('pictures/cards/howls-moving-castle-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .kikisdeliveryservicehard-1 {
     background-image: url('pictures/cards/kikis-delivery-service-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .kikisdeliveryservicehard-2 {
     background-image: url('pictures/cards/kikis-delivery-service-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .spiritedawayhard-1 {
     background-image: url('pictures/cards/spirited-away-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .spiritedawayhard-2 {
     background-image: url('pictures/cards/spirited-away-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .nausicaahard-1 {
     background-image: url('pictures/cards/nausicaa-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .nausicaahard-2 {
     background-image: url('pictures/cards/nausicaa-card-hard.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .content-bb {
     background-image: url('pictures/cards/content-bb.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .fring-1 {
     background-image: url('pictures/cards/fring.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .fring-2 {
     background-image: url('pictures/cards/fring.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .gale-1 {
     background-image: url('pictures/cards/gale.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .gale-2 {
     background-image: url('pictures/cards/gale.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .hank-1 {
     background-image: url('pictures/cards/hank.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .hank-2 {
     background-image: url('pictures/cards/hank.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .hector-1 {
     background-image: url('pictures/cards/hector.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .hector-2 {
     background-image: url('pictures/cards/hector.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .heisenberg-1 {
     background-image: url('pictures/cards/heisenberg.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .heisenberg-2 {
     background-image: url('pictures/cards/heisenberg.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .jane-1 {
     background-image: url('pictures/cards/jane.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .jane-2 {
     background-image: url('pictures/cards/jane.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .jesse-1 {
     background-image: url('pictures/cards/jesse.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .jesse-2 {
     background-image: url('pictures/cards/jesse.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .saul-1 {
     background-image: url('pictures/cards/saul.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .saul-2 {
     background-image: url('pictures/cards/saul.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .skyler-1 {
     background-image: url('pictures/cards/skyler.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .skyler-2 {
     background-image: url('pictures/cards/skyler.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .tuco-1 {
     background-image: url('pictures/cards/tuco.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .tuco-2 {
     background-image: url('pictures/cards/tuco.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .walterwhite-1 {
     background-image: url('pictures/cards/walterwhite.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .walterwhite-2 {
     background-image: url('pictures/cards/walterwhite.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .mike-1 {
     background-image: url('pictures/cards/mike.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .mike-2 {
     background-image: url('pictures/cards/mike.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .content-simpsons {
     background-image: url('pictures/cards/content-simpsons.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .apu-1 {
     background-image: url('pictures/cards/apu.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .apu-2 {
     background-image: url('pictures/cards/apu.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .bobbartlisa-1 {
     background-image: url('pictures/cards/bobbartlisa.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .bobbartlisa-2 {
     background-image: url('pictures/cards/bobbartlisa.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .burns-1 {
     background-image: url('pictures/cards/burns.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .burns-2 {
     background-image: url('pictures/cards/burns.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .hibbert-1 {
     background-image: url('pictures/cards/hibbert.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .hibbert-2 {
     background-image: url('pictures/cards/hibbert.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .homerkrusty-1 {
     background-image: url('pictures/cards/homerkrusty.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .homerkrusty-2 {
     background-image: url('pictures/cards/homerkrusty.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .maggie-1 {
     background-image: url('pictures/cards/maggie.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .maggie-2 {
     background-image: url('pictures/cards/maggie.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .marge-1 {
     background-image: url('pictures/cards/marge.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .marge-2 {
     background-image: url('pictures/cards/marge.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .mcclure-1 {
     background-image: url('pictures/cards/mcclure.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .mcclure-2 {
     background-image: url('pictures/cards/mcclure.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .moe-1 {
     background-image: url('pictures/cards/moe.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .moe-2 {
     background-image: url('pictures/cards/moe.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .ned-1 {
     background-image: url('pictures/cards/ned.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .ned-2 {
     background-image: url('pictures/cards/ned.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .otto-1 {
     background-image: url('pictures/cards/otto.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .otto-2 {
     background-image: url('pictures/cards/otto.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .wiggum-1 {
     background-image: url('pictures/cards/wiggum.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .wiggum-2 {
     background-image: url('pictures/cards/wiggum.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .content-cn {
     background-image: url('pictures/cards/content-cn.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .adventuretime-1 {
     background-image: url('pictures/cards/adventuretime.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .adventuretime-2 {
     background-image: url('pictures/cards/adventuretime.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .billyandmandy-1 {
     background-image: url('pictures/cards/billyandmandy.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .billyandmandy-2 {
     background-image: url('pictures/cards/billyandmandy.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .chowder-1 {
     background-image: url('pictures/cards/chowder.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .chowder-2 {
     background-image: url('pictures/cards/chowder.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .courage-1 {
     background-image: url('pictures/cards/courage.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .courage-2 {
     background-image: url('pictures/cards/courage.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .dexter-1 {
     background-image: url('pictures/cards/dexter.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .dexter-2 {
     background-image: url('pictures/cards/dexter.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .flapjack-1 {
     background-image: url('pictures/cards/flapjack.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .flapjack-2 {
     background-image: url('pictures/cards/flapjack.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .fosters-1 {
     background-image: url('pictures/cards/fosters.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .fosters-2 {
     background-image: url('pictures/cards/fosters.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .knd-1 {
     background-image: url('pictures/cards/knd.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .knd-2 {
     background-image: url('pictures/cards/knd.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .teentitans-1 {
     background-image: url('pictures/cards/teentitans.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .teentitans-2 {
     background-image: url('pictures/cards/teentitans.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .scoobydoo-1 {
     background-image: url('pictures/cards/scoobydoo.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .scoobydoo-2 {
     background-image: url('pictures/cards/scoobydoo.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .regularshow-1 {
     background-image: url('pictures/cards/regularshow.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .regularshow-2 {
     background-image: url('pictures/cards/regularshow.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .powerpuffgirls-1 {
     background-image: url('pictures/cards/powerpuffgirls.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
 .powerpuffgirls-2 {
     background-image: url('pictures/cards/powerpuffgirls.jpg');
     border: 1px solid rgb(95, 94, 94);
-    width: 180px;
-    height: 180px;
-    transition: 1s;
+    width: 11.2rem;
+    height: 11.2rem;
+    transition: 0.25s;
 }
 
