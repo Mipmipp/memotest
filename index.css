@@ -26,8 +26,25 @@ body {
     color: #f3768b;
 
 }
+
 #main {
     grid-area: main;
+    background-color: black;
+}
+
+#introduction-text {
+    margin-top: 2rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #313131;
+}
+
+#all-topics {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }
 
 #footer {
