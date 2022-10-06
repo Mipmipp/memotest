@@ -3,7 +3,10 @@ let secondCardChoosed = null;
 let cards = [];
 let correctEven = [];
 let even = 0;
+let content = null;
+let difficult = null;
 let totalEven = 0;
+let board = null;
 
 function assignCards() {
     let suffledCards = suffleCards(cards);
