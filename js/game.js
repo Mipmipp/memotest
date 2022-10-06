@@ -1,6 +1,7 @@
 let firstCardChoosed = null;
 let secondCardChoosed = null;
 let cards = [];
+let correctEven = [];
 
 function assignCards() {
     let suffledCards = suffleCards(cards);
