@@ -1,3 +1,27 @@
+function handleGame() {
+    for(let i = 1; i < (cards.length + 1); i++) {
+        let $cards = document.querySelector(`#${cards[i - 1]}`);
+        $cards.addEventListener('click', handleClicks);
+    }
+
+    for(let i = 1; i < (correctEven.length + 1); i++) {
+        let $cards = document.querySelector(`${correctEven[i - 1]}`);
+        $cards.removeEventListener('click', handleClicks);        
+    }
+
+    userWin = (even === totalEven);
+
+    if(userWin) {
+        document.getElementById('easy-play-again').style.display = '';
+        document.getElementById('hard-play-again').style.display = '';
+        document.getElementById('go-home').style.display = '';
+        document.getElementById('hard-go-home').style.display = '';
+    }
+
+    firstCardChoosed = null;
+    secondCardChoosed = null;
+}
+
 function handleClicks(e) {
     cardChoosed = e.target.id;
 
