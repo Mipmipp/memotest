@@ -1,3 +1,13 @@
+
+function assignCards() {
+    let suffledCards = suffleCards(cards);
+    for(let i = 1; i < (cards.length + 1); i++) {
+        document.querySelectorAll(board).forEach(function() {
+            document.querySelector(`${difficult}${i}`).id = `${suffledCards[i - 1]}`;
+        });
+    }
+}
+
 function suffleCards(cards) {
     const shuffledCards = cards.sort((a, b) => 0.5 - Math.random());
     return shuffledCards;
