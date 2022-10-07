@@ -15,6 +15,16 @@ body {
         "footer" 5rem;
 }
 
+@media only screen and (max-width: 600px) {
+    #page-layout {
+        display: grid;
+        grid-template: 
+            "header" 4rem
+            "main"   auto
+            "footer" 7.5rem;
+    }
+}
+
 #header {
     grid-area: header;
     background-color: #313131;
@@ -24,7 +34,6 @@ body {
     text-align: center;
     margin-top: 0.4rem;
     color: #f3768b;
-
 }
 
 #main {
