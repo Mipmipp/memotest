@@ -72,11 +72,11 @@ function compareCards() {
         blockInputUser();
         setTimeout(function() {
             backCard();
-        }, 250)
+        }, 500)
 
         setTimeout(function() {
             handleGame();
-        }, 450)
+        }, 750)
     } else {
         correctEven.push(firstCardChoosed);
         correctEven.push(secondCardChoosed);
