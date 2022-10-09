@@ -76,7 +76,7 @@ function compareCards() {
 
         setTimeout(function() {
             handleGame();
-        }, 750)
+        }, 950)
     } else {
         correctEven.push(firstCardChoosed);
         correctEven.push(secondCardChoosed);
