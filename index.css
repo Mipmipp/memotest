@@ -20,7 +20,7 @@ body {
         display: grid;
         grid-template: 
             "header" 4rem
-            "main"   44.5rem
+            "main"   auto
             "footer" 7.5rem;
     }
 }
