@@ -1,0 +1,27 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-run": "cypress run",
+    "cypress-dev": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mipmipp/memotest.git"
+  },
+  "author": "Mipmipp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mipmipp/memotest/issues"
+  },
+  "homepage": "https://github.com/Mipmipp/memotest#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
