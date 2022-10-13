@@ -1,239 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memotest</title>
-    <link rel="icon" href="pictures/logo.ico">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
-</head>
-<body id="page-layout">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Memotest</title>
+      <link rel="icon" href="pictures/logo.ico" />
+      <link rel="stylesheet" href="index.min.css" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+         crossorigin="anonymous"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body id="page-layout">
+      <header id="header">
+         <h1>Memotest</h1>
+      </header>
 
-    <header id="header">
-        <h1>Memotest</h1>
-    </header>
-    
-    <main id="main" style="background-image: url('pictures/main-background.jpg');">
-      <div id="first-screen">
-        <div id="introduction-text">
-          <b>Memotest is a game with specific cards where the objective is to find pairs with the same printed picture using memory.<br>You can play the game on easy or hard. You also have the option to select a topic.</b>
-        </div>
-
-        <div id="all-topics">
-          <div id="carouselExampleFade" class="carousel slide carousel-dark" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <main
+         id="main"
+         style="background-image: url('pictures/main-background.jpg')"
+      >
+         <div id="first-screen">
+            <div id="introduction-text">
+               <b
+                  >Memotest is a game with specific cards where the objective is
+                  to find pairs with the same printed picture using memory.<br />You
+                  can play the game on easy or hard. You also have the option to
+                  select a topic.</b
+               >
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" id="studio-ghibli">
-                <img src="pictures/carousel-pictures/studio-ghibli-picture.jpg" style="opacity: 70%;" class="d-block w-100" alt="picture of studio ghibli">
-                <div class="carousel-caption d-auto d-md-auto ml-auto re-auto">
-                  <h5 style="color: black; font-size: 2.8rem;">Studio ghibli</h5>
-                  <button type="button" class="btn btn-dark" id="easy-ghibli">easy</button>
-                  <button type="button" class="btn btn-dark" id="hard-ghibli">hard</button>
-                </div>
-              </div>
-              <div class="carousel-item" id="breaking-bad">
-                <img src="pictures/carousel-pictures/breaking-bad-picture.jpg" style="opacity: 70%;" class="d-block w-100" alt="picture of breaking bad">
-                <div class="carousel-caption d-auto d-md-auto ml-auto re-auto">
-                  <h5 style="color: black; font-size: 2.8rem;">Breaking bad</h5>
-                  <button type="button" class="btn btn-dark" id="easy-bb">easy</button>
-                  <button type="button" class="btn btn-dark" id="hard-bb">hard</button>
-              </div>
-              </div>
-              <div class="carousel-item" id="the-simpsons">
-                <img src="pictures/carousel-pictures/the-simpsons-picture.jpg" style="opacity: 70%;" class="d-block w-100" alt="picture of the simpsons">
-                <div class="carousel-caption d-auto d-md-auto ml-auto re-auto">
-                  <h5 style="color: black; font-size: 2.8rem;">The simpsons</h5>
-                  <button type="button" class="btn btn-dark" id="easy-simpsons">easy</button>
-                  <button type="button" class="btn btn-dark" id="hard-simpsons">hard</button>
-                </div>
-              </div>
-              <div class="carousel-item" id="cartoon-network">
-                <img src="pictures/carousel-pictures/cartoon-network-picture.jpg" style="opacity: 70%;" class="d-block w-100" alt="picture of cartoon network">
-                <div class="carousel-caption d-auto d-md-auto ml-auto re-auto">
-                  <h5 style="color: black; font-size: 2.8rem;">Cartoon network</h5>
-                  <button type="button" class="btn btn-dark" id="easy-cn">easy</button>
-                  <button type="button" class="btn btn-dark" id="hard-cn">hard</button>
-                </div>
-              </div>
+
+            <div id="all-topics">
+               <div
+                  id="carouselExampleFade"
+                  class="carousel slide carousel-dark"
+                  data-bs-ride="carousel"
+               >
+                  <div class="carousel-indicators">
+                     <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                     ></button>
+                     <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                     ></button>
+                     <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                     ></button>
+                     <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"
+                     ></button>
+                  </div>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active" id="studio-ghibli">
+                        <img
+                           src="pictures/carousel-pictures/studio-ghibli-picture.jpg"
+                           style="opacity: 70%"
+                           class="d-block w-100"
+                           alt="picture of studio ghibli"
+                        />
+                        <div
+                           class="carousel-caption d-auto d-md-auto ml-auto re-auto"
+                        >
+                           <h5 style="color: black; font-size: 2.8rem">
+                              Studio ghibli
+                           </h5>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="easy-ghibli"
+                           >
+                              easy
+                           </button>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="hard-ghibli"
+                           >
+                              hard
+                           </button>
+                        </div>
+                     </div>
+                     <div class="carousel-item" id="breaking-bad">
+                        <img
+                           src="pictures/carousel-pictures/breaking-bad-picture.jpg"
+                           style="opacity: 70%"
+                           class="d-block w-100"
+                           alt="picture of breaking bad"
+                        />
+                        <div
+                           class="carousel-caption d-auto d-md-auto ml-auto re-auto"
+                        >
+                           <h5 style="color: black; font-size: 2.8rem">
+                              Breaking bad
+                           </h5>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="easy-bb"
+                           >
+                              easy
+                           </button>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="hard-bb"
+                           >
+                              hard
+                           </button>
+                        </div>
+                     </div>
+                     <div class="carousel-item" id="the-simpsons">
+                        <img
+                           src="pictures/carousel-pictures/the-simpsons-picture.jpg"
+                           style="opacity: 70%"
+                           class="d-block w-100"
+                           alt="picture of the simpsons"
+                        />
+                        <div
+                           class="carousel-caption d-auto d-md-auto ml-auto re-auto"
+                        >
+                           <h5 style="color: black; font-size: 2.8rem">
+                              The simpsons
+                           </h5>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="easy-simpsons"
+                           >
+                              easy
+                           </button>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="hard-simpsons"
+                           >
+                              hard
+                           </button>
+                        </div>
+                     </div>
+                     <div class="carousel-item" id="cartoon-network">
+                        <img
+                           src="pictures/carousel-pictures/cartoon-network-picture.jpg"
+                           style="opacity: 70%"
+                           class="d-block w-100"
+                           alt="picture of cartoon network"
+                        />
+                        <div
+                           class="carousel-caption d-auto d-md-auto ml-auto re-auto"
+                        >
+                           <h5 style="color: black; font-size: 2.8rem">
+                              Cartoon network
+                           </h5>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="easy-cn"
+                           >
+                              easy
+                           </button>
+                           <button
+                              type="button"
+                              class="btn btn-dark"
+                              id="hard-cn"
+                           >
+                              hard
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <button
+                     class="carousel-control-prev"
+                     type="button"
+                     data-bs-target="#carouselExampleFade"
+                     data-bs-slide="prev"
+                  >
+                     <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                     ></span>
+                     <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                     class="carousel-control-next"
+                     type="button"
+                     data-bs-target="#carouselExampleFade"
+                     data-bs-slide="next"
+                  >
+                     <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                        id="next"
+                     ></span>
+                     <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
+         </div>
 
-      <div class="container" id="easy-board" style="display: none;">
-          <div class="row">
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n1"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n2"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n3"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n4"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n5"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n6"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n7"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n8"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n9"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n10"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n11"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
-                <div class="content" id="easy-card-n12"></div>
-              </div>
-          </div>
-          <div style="text-align: center; margin-top: 3rem; margin-bottom: 3rem;">
-            <button type="button" class="btn btn-dark btn-lg" id="easy-play">play</button>
-            <button type="button" class="btn btn-dark btn-lg" id="easy-play-again" style="display: none;">play again</button>
-            <button type="button" class="btn btn-dark btn-lg" id="go-home" style="display: none;">go home</button>
-          </div>
-      </div>
+         <div class="container" id="easy-board" style="display: none">
+            <div class="row">
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n1"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n2"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n3"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n4"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n5"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n6"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n7"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n8"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n9"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n10"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n11"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4" name="card">
+                  <div class="content" id="easy-card-n12"></div>
+               </div>
+            </div>
+            <div
+               style="text-align: center; margin-top: 3rem; margin-bottom: 3rem"
+            >
+               <button type="button" class="btn btn-dark btn-lg" id="easy-play">
+                  play
+               </button>
+               <button
+                  type="button"
+                  class="btn btn-dark btn-lg"
+                  id="easy-play-again"
+                  style="display: none"
+               >
+                  play again
+               </button>
+               <button
+                  type="button"
+                  class="btn btn-dark btn-lg"
+                  id="go-home"
+                  style="display: none"
+               >
+                  go home
+               </button>
+            </div>
+         </div>
 
-      <div class="container" id="hard-board" style="display: none;">
-          <div class="row">
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n1"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n2"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n3"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n4"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n5"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n6"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n7"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n8"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n9"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n10"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n11"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n12"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n13"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n14"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n15"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n16"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n17"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n18"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n19"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n20"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n21"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
-                <div class="content" id="card-n22"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+         <div class="container" id="hard-board" style="display: none">
+            <div class="row">
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n1"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n2"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n3"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n4"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n5"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n6"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n7"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n8"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n9"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n10"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n11"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n12"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n13"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n14"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n15"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n16"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n17"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n18"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n19"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n20"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n21"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
+                  <div class="content" id="card-n22"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4">
                   <div class="content" id="card-n23"></div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4 mb-4">
-                <div class="content" id="card-n24"></div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-xl-2 mt-4 mb-4">
+                  <div class="content" id="card-n24"></div>
+               </div>
             </div>
-          </div>
-          <div style="text-align: center; margin-top: 3rem; margin-bottom: 3rem;">
-            <button type="button" class="btn btn-dark btn-lg" id="hard-play">play</button>
-            <button type="button" class="btn btn-dark btn-lg" id="hard-play-again" style="display: none;">play again</button>
-            <button type="button" class="btn btn-dark btn-lg" id="hard-go-home" style="display: none;">go home</button>
-          </div>
-      </div>
-      
-    </main>
-
-    <footer id="footer">
-        <div class="container">
-            <div class="row-cols-lg-2" style="text-align: -webkit-center" name="footer-information">
-                <div class="col" style="margin-top: 0.5rem">
-                    <p class="information-text">Game created by <span class="creator-color">Mipmipp</span>. Here is the link to the repository <a href="https://github.com/Mipmipp/memotest" class="link">click</a>.</p>
-                </div>
-                <div class="col" name="footer-contact" style="margin-top: -0.7rem;">
-                        <a class="btn btn-outline-light btn-floating m-1" style="font-size: small;" href="https://github.com/Mipmipp" role="button">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="btn btn-outline-light btn-floating m-1" style="font-size: small;" href="https://www.linkedin.com/in/mipmipp/" role="button">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a class="btn btn-outline-light btn-floating m-1" style="font-size: small;" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=imipmipp@gmail.com" role="button">
-                            <i class="fa fa-envelope"></i>
-                        </a>    
-                </div>
+            <div
+               style="text-align: center; margin-top: 3rem; margin-bottom: 3rem"
+            >
+               <button type="button" class="btn btn-dark btn-lg" id="hard-play">
+                  play
+               </button>
+               <button
+                  type="button"
+                  class="btn btn-dark btn-lg"
+                  id="hard-play-again"
+                  style="display: none"
+               >
+                  play again
+               </button>
+               <button
+                  type="button"
+                  class="btn btn-dark btn-lg"
+                  id="hard-go-home"
+                  style="display: none"
+               >
+                  go home
+               </button>
             </div>
-        </div>    
-    </footer>
+         </div>
+      </main>
 
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/game.js"></script>
-</body>
+      <footer id="footer">
+         <div class="container">
+            <div
+               class="row-cols-lg-2"
+               style="text-align: -webkit-center"
+               name="footer-information"
+            >
+               <div class="col" style="margin-top: 0.5rem">
+                  <p class="information-text">
+                     Game created by <span class="creator-color">Mipmipp</span>.
+                     Here is the link to the repository
+                     <a href="https://github.com/Mipmipp/memotest" class="link"
+                        >click</a
+                     >.
+                  </p>
+               </div>
+               <div
+                  class="col"
+                  name="footer-contact"
+                  style="margin-top: -0.7rem"
+               >
+                  <a
+                     class="btn btn-outline-light btn-floating m-1"
+                     style="font-size: small"
+                     href="https://github.com/Mipmipp"
+                     role="button"
+                  >
+                     <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a
+                     class="btn btn-outline-light btn-floating m-1"
+                     style="font-size: small"
+                     href="https://www.linkedin.com/in/mipmipp/"
+                     role="button"
+                  >
+                     <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                     class="btn btn-outline-light btn-floating m-1"
+                     style="font-size: small"
+                     href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=imipmipp@gmail.com"
+                     role="button"
+                  >
+                     <i class="fa fa-envelope"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+         crossorigin="anonymous"
+      ></script>
+      <script type="text/javascript" src="js/index.min.js"></script>
+      <script type="text/javascript" src="js/game.min.js"></script>
+   </body>
 </html>
