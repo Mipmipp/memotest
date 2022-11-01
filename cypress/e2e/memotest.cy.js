@@ -34,6 +34,14 @@ context("memotest", () => {
          cy.get("#princessmomonoke-1").should("have.class", "content-ghibli");
       });
 
+      it("check that a card cant be touched two times", () => {
+         cy.get("#howlsmovingcastle-1").click();
+         cy.get("#howlsmovingcastle-1").click();
+         cy.get("#princessmomonoke-1").click();
+         cy.get("#howlsmovingcastle-1").should("have.class", "content-ghibli");
+         cy.get("#princessmomonoke-1").should("have.class", "content-ghibli");
+      });
+
       it("complete game", () => {
          cy.wait(200);
          let cardsOrdered = [
@@ -83,6 +91,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#howlsmovingcastle-1").click();
+         cy.get("#princessmomonoke-1").click();
+         cy.get("#howlsmovingcastle-1").should("have.class", "content-ghibli");
+         cy.get("#princessmomonoke-1").should("have.class", "content-ghibli");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#howlsmovingcastle-1").click();
          cy.get("#howlsmovingcastle-1").click();
          cy.get("#princessmomonoke-1").click();
          cy.get("#howlsmovingcastle-1").should("have.class", "content-ghibli");
@@ -142,6 +158,20 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#howlsmovingcastlehard-1").click();
+         cy.get("#princessmomonokehard-1").click();
+         cy.get("#howlsmovingcastlehard-1").should(
+            "have.class",
+            "content-ghibli"
+         );
+         cy.get("#princessmomonokehard-1").should(
+            "have.class",
+            "content-ghibli"
+         );
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#howlsmovingcastlehard-1").click();
          cy.get("#howlsmovingcastlehard-1").click();
          cy.get("#princessmomonokehard-1").click();
          cy.get("#howlsmovingcastlehard-1").should(
@@ -227,6 +257,20 @@ context("memotest", () => {
          );
       });
 
+      it("check that a card cant be touched two times", () => {
+         cy.get("#howlsmovingcastlehard-1").click();
+         cy.get("#howlsmovingcastlehard-1").click();
+         cy.get("#princessmomonokehard-1").click();
+         cy.get("#howlsmovingcastlehard-1").should(
+            "have.class",
+            "content-ghibli"
+         );
+         cy.get("#princessmomonokehard-1").should(
+            "have.class",
+            "content-ghibli"
+         );
+      });
+
       it("complete game", () => {
          cy.wait(200);
          let cardsOrdered = [
@@ -299,6 +343,14 @@ context("memotest", () => {
          cy.get("#skyler-1").should("have.class", "content-bb");
       });
 
+      it("check that a card cant be touched two times", () => {
+         cy.get("#skyler-1").click();
+         cy.get("#skyler-1").click();
+         cy.get("#tuco-1").click();
+         cy.get("#skyler-1").should("have.class", "content-bb");
+         cy.get("#tuco-1").should("have.class", "content-bb");
+      });
+
       it("complete game", () => {
          cy.wait(200);
          let cardsOrdered = [
@@ -354,6 +406,14 @@ context("memotest", () => {
          cy.get("#skyler-1").should("have.class", "content-bb");
       });
 
+      it("check that a card cant be touched two times", () => {
+         cy.get("#skyler-1").click();
+         cy.get("#skyler-1").click();
+         cy.get("#tuco-1").click();
+         cy.get("#skyler-1").should("have.class", "content-bb");
+         cy.get("#tuco-1").should("have.class", "content-bb");
+      });
+
       it("complete game", () => {
          cy.wait(200);
          let cardsOrdered = [
@@ -407,6 +467,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#jane-1").click();
+         cy.get("#hector-1").click();
+         cy.get("#jane-1").should("have.class", "content-bb");
+         cy.get("#hector-1").should("have.class", "content-bb");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#jane-1").click();
          cy.get("#jane-1").click();
          cy.get("#hector-1").click();
          cy.get("#jane-1").should("have.class", "content-bb");
@@ -474,6 +542,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#jane-1").click();
+         cy.get("#hector-1").click();
+         cy.get("#jane-1").should("have.class", "content-bb");
+         cy.get("#hector-1").should("have.class", "content-bb");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#jane-1").click();
          cy.get("#jane-1").click();
          cy.get("#hector-1").click();
          cy.get("#jane-1").should("have.class", "content-bb");
@@ -553,6 +629,14 @@ context("memotest", () => {
          cy.get("#burns-1").should("have.class", "content-simpsons");
       });
 
+      it("check that a card cant be touched two times", () => {
+         cy.get("#apu-1").click();
+         cy.get("#apu-1").click();
+         cy.get("#burns-1").click();
+         cy.get("#apu-1").should("have.class", "content-simpsons");
+         cy.get("#burns-1").should("have.class", "content-simpsons");
+      });
+
       it("complete game", () => {
          cy.wait(200);
          let cardsOrdered = [
@@ -602,6 +686,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#apu-1").click();
+         cy.get("#burns-1").click();
+         cy.get("#apu-1").should("have.class", "content-simpsons");
+         cy.get("#burns-1").should("have.class", "content-simpsons");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#apu-1").click();
          cy.get("#apu-1").click();
          cy.get("#burns-1").click();
          cy.get("#apu-1").should("have.class", "content-simpsons");
@@ -661,6 +753,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#marge-1").click();
+         cy.get("#maggie-1").click();
+         cy.get("#marge-1").should("have.class", "content-simpsons");
+         cy.get("#maggie-1").should("have.class", "content-simpsons");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#marge-1").click();
          cy.get("#marge-1").click();
          cy.get("#maggie-1").click();
          cy.get("#marge-1").should("have.class", "content-simpsons");
@@ -728,6 +828,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#marge-1").click();
+         cy.get("#maggie-1").click();
+         cy.get("#marge-1").should("have.class", "content-simpsons");
+         cy.get("#maggie-1").should("have.class", "content-simpsons");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#marge-1").click();
          cy.get("#marge-1").click();
          cy.get("#maggie-1").click();
          cy.get("#marge-1").should("have.class", "content-simpsons");
@@ -806,6 +914,14 @@ context("memotest", () => {
          cy.get("#regularshow-1").should("have.class", "content-cn");
       });
 
+      it("check that a card cant be touched two times", () => {
+         cy.get("#adventuretime-1").click();
+         cy.get("#adventuretime-1").click();
+         cy.get("#regularshow-1").click();
+         cy.get("#adventuretime-1").should("have.class", "content-cn");
+         cy.get("#regularshow-1").should("have.class", "content-cn");
+      });
+
       it("complete game", () => {
          cy.wait(200);
          let cardsOrdered = [
@@ -855,6 +971,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#adventuretime-1").click();
+         cy.get("#regularshow-1").click();
+         cy.get("#adventuretime-1").should("have.class", "content-cn");
+         cy.get("#regularshow-1").should("have.class", "content-cn");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#adventuretime-1").click();
          cy.get("#adventuretime-1").click();
          cy.get("#regularshow-1").click();
          cy.get("#adventuretime-1").should("have.class", "content-cn");
@@ -920,6 +1044,14 @@ context("memotest", () => {
          cy.get("#fosters-1").should("have.class", "content-cn");
       });
 
+      it("check that a card cant be touched two times", () => {
+         cy.get("#billyandmandy-1").click();
+         cy.get("#billyandmandy-1").click();
+         cy.get("#fosters-1").click();
+         cy.get("#billyandmandy-1").should("have.class", "content-cn");
+         cy.get("#fosters-1").should("have.class", "content-cn");
+      });
+
       it("complete game", () => {
          cy.wait(200);
          let cardsOrdered = [
@@ -959,7 +1091,7 @@ context("memotest", () => {
       });
    });
 
-   describe('play the simpsons in hard again with "play again" button', () => {
+   describe('play cartoon network in hard again with "play again" button', () => {
       it("touch play again", () => {
          cy.get("#hard-play-again").click();
       });
@@ -981,6 +1113,14 @@ context("memotest", () => {
       });
 
       it("do a incorrect try", () => {
+         cy.get("#billyandmandy-1").click();
+         cy.get("#fosters-1").click();
+         cy.get("#billyandmandy-1").should("have.class", "content-cn");
+         cy.get("#fosters-1").should("have.class", "content-cn");
+      });
+
+      it("check that a card cant be touched two times", () => {
+         cy.get("#billyandmandy-1").click();
          cy.get("#billyandmandy-1").click();
          cy.get("#fosters-1").click();
          cy.get("#billyandmandy-1").should("have.class", "content-cn");
