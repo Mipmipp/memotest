@@ -54,6 +54,9 @@ function handleClicks(e) {
    if (firstCardChoosed == null) {
       firstCardChoosed = `#${cardChoosed}`;
       document.querySelector(firstCardChoosed).className = `${cardChoosed}`;
+      document
+         .getElementById(cardChoosed)
+         .removeEventListener("click", handleClicks);
    } else {
       secondCardChoosed = `#${cardChoosed}`;
       document.querySelector(secondCardChoosed).className = `${cardChoosed}`;
@@ -74,11 +77,11 @@ function compareCards() {
       blockInputUser();
       setTimeout(function () {
          backCard();
-      }, 500);
+      }, 400);
 
       setTimeout(function () {
          handleGame();
-      }, 750);
+      }, 550);
    } else {
       correctEven.push(firstCardChoosed);
       correctEven.push(secondCardChoosed);
